@@ -24,6 +24,7 @@ def task5():
 
 
 def task6():
+    # python main.py -p C:\
     out = module.task6.out_parser()
     print(*module.task6.task6(out), sep="\n")
 
